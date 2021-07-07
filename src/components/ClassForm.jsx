@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../components/ClassForm.css'
 
 
 class ClassForm extends Component {
