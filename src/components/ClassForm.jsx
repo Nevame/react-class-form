@@ -31,8 +31,8 @@ class ClassForm extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit} >
-                <label htmlFor="">Name:</label><br />
-                <input type="text" name="username" value={this.state.username} onChange={this.handleChange} /><br />
+                <label  htmlFor="">Name:</label><br />
+                <input type="text"  name="username" value={this.state.username} onChange={this.handleChange} /><br />
 
                 <label htmlFor="email">Enter your email:</label><br />
                 <input type="email" name="email" value={this.state.email} onChange={this.handleChange}></input><br />
